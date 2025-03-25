@@ -1,0 +1,36 @@
+/* Additional custom styles can be added here */
+.markdown-content blockquote {
+    border-left: 4px solid #000;
+    margin: 1.5em 0;
+    padding-left: 1em;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+.markdown-content ul {
+    list-style-type: disc;
+}
+
+.markdown-content ol {
+    list-style-type: decimal;
+}
+
+.markdown-content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.markdown-content table th,
+.markdown-content table td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+
+.markdown-content table th {
+    background-color: #f5f5f5;
+} 
