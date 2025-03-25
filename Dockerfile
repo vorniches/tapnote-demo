@@ -13,6 +13,7 @@ COPY . .
 # Ensure proper permissions
 RUN chmod +x manage.py
 RUN chmod -R 755 .
+RUN python manage.py migrate
 
 EXPOSE 9009
 CMD ["python", "manage.py", "runserver", "0.0.0.0:9009"]
